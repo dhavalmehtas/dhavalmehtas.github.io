@@ -1,0 +1,136 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set body background */
+body {
+    background: #f5f5f5;
+          font-family: 'Google Sans', sans-serif;
+   
+}
+section{
+    margin: 10px;
+}
+/* Header styles */
+header {
+    background: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin: 0 1em;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.2s ease;
+}
+
+nav a:hover {
+    color: #f5f5f5;
+}
+
+/* Main styles */
+main {
+    max-width: 1200px;
+    margin: 2em auto;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 1.5em;
+}
+
+a {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: all 0.2s ease;
+}
+
+a:hover {
+    background: #fff;
+    color: #333;
+    border: 2px solid #333;
+}
+
+.project {
+    margin-bottom: 3em;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 2em;
+}
+
+.project img {
+    width: 100%;
+}
+
+.project h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+/* Contact form styles */
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+    margin-top: 2em;
+}
+
+label {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    border: none;
+    border-radius: 3px;
+    padding: 0.5em;
+    font-size: 1.2em;
+}
+
+button[type="submit"] {
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 0.5em 1em;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+button[type="submit"]:hover {
+    background: #fff;
+    color: #333;
+    border: 2px solid #333;
+}
